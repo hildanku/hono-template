@@ -1,19 +1,22 @@
 {
-  "name": "hono-template",
-  "type": "module",
-  "scripts": {
-    "dev": "tsx watch src/index.ts"
-  },
-  "dependencies": {
-    "@hono/node-server": "^1.14.0",
-    "dotenv": "^16.4.7",
-    "drizzle-orm": "^0.41.0",
-    "hono": "^4.7.5",
-    "mysql2": "^3.14.0"
-  },
-  "devDependencies": {
-    "@types/node": "^20.11.17",
-    "drizzle-kit": "^0.30.6",
-    "tsx": "^4.19.3"
-  }
+    "name": "hono-template",
+    "type": "module",
+    "scripts": {
+        "dev": "tsx watch src/index.ts",
+        "test": "jest"
+    },
+    "dependencies": {
+        "@hono/node-server": "^1.14.0",
+        "dotenv": "^16.4.7",
+        "drizzle-orm": "^0.41.0",
+        "hono": "^4.7.5",
+        "mysql2": "^3.14.0"
+    },
+    "devDependencies": {
+        "@types/node": "^20.11.17",
+        "drizzle-kit": "^0.30.6",
+        "ts-node": "^10.9.2",
+        "tsx": "^4.19.3",
+        "vitest": "^3.1.1"
+    }
 }
